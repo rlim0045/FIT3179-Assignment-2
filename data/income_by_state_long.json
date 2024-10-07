@@ -1,0 +1,1847 @@
+[
+ {
+   "Year": 1983,
+   "State": "New South Wales",
+   "Income": 273
+ },
+ {
+   "Year": 1983,
+   "State": "Victoria",
+   "Income": 266
+ },
+ {
+   "Year": 1983,
+   "State": "Queensland",
+   "Income": 264
+ },
+ {
+   "Year": 1983,
+   "State": "South Australia",
+   "Income": 259
+ },
+ {
+   "Year": 1983,
+   "State": "Western Australia",
+   "Income": 265
+ },
+ {
+   "Year": 1983,
+   "State": "Tasmania",
+   "Income": 256
+ },
+ {
+   "Year": 1983,
+   "State": "Northern Territory",
+   "Income": 319
+ },
+ {
+   "Year": 1983,
+   "State": "Australian Capital Territory",
+   "Income": 298
+ },
+ {
+   "Year": 1983,
+   "State": "Australia",
+   "Income": 268
+ },
+ {
+   "Year": 1984,
+   "State": "New South Wales",
+   "Income": 296
+ },
+ {
+   "Year": 1984,
+   "State": "Victoria",
+   "Income": 285
+ },
+ {
+   "Year": 1984,
+   "State": "Queensland",
+   "Income": 280
+ },
+ {
+   "Year": 1984,
+   "State": "South Australia",
+   "Income": 275
+ },
+ {
+   "Year": 1984,
+   "State": "Western Australia",
+   "Income": 286
+ },
+ {
+   "Year": 1984,
+   "State": "Tasmania",
+   "Income": 278
+ },
+ {
+   "Year": 1984,
+   "State": "Northern Territory",
+   "Income": 344
+ },
+ {
+   "Year": 1984,
+   "State": "Australian Capital Territory",
+   "Income": 321
+ },
+ {
+   "Year": 1984,
+   "State": "Australia",
+   "Income": 288
+ },
+ {
+   "Year": 1985,
+   "State": "New South Wales",
+   "Income": 313
+ },
+ {
+   "Year": 1985,
+   "State": "Victoria",
+   "Income": 309
+ },
+ {
+   "Year": 1985,
+   "State": "Queensland",
+   "Income": 298
+ },
+ {
+   "Year": 1985,
+   "State": "South Australia",
+   "Income": 298
+ },
+ {
+   "Year": 1985,
+   "State": "Western Australia",
+   "Income": 303
+ },
+ {
+   "Year": 1985,
+   "State": "Tasmania",
+   "Income": 299
+ },
+ {
+   "Year": 1985,
+   "State": "Northern Territory",
+   "Income": 350
+ },
+ {
+   "Year": 1985,
+   "State": "Australian Capital Territory",
+   "Income": 344
+ },
+ {
+   "Year": 1985,
+   "State": "Australia",
+   "Income": 308
+ },
+ {
+   "Year": 1986,
+   "State": "New South Wales",
+   "Income": 313
+ },
+ {
+   "Year": 1986,
+   "State": "Victoria",
+   "Income": 309
+ },
+ {
+   "Year": 1986,
+   "State": "Queensland",
+   "Income": 298
+ },
+ {
+   "Year": 1986,
+   "State": "South Australia",
+   "Income": 298
+ },
+ {
+   "Year": 1986,
+   "State": "Western Australia",
+   "Income": 303
+ },
+ {
+   "Year": 1986,
+   "State": "Tasmania",
+   "Income": 299
+ },
+ {
+   "Year": 1986,
+   "State": "Northern Territory",
+   "Income": 350
+ },
+ {
+   "Year": 1986,
+   "State": "Australian Capital Territory",
+   "Income": 344
+ },
+ {
+   "Year": 1986,
+   "State": "Australia",
+   "Income": 326
+ },
+ {
+   "Year": 1987,
+   "State": "New South Wales",
+   "Income": 358
+ },
+ {
+   "Year": 1987,
+   "State": "Victoria",
+   "Income": 340
+ },
+ {
+   "Year": 1987,
+   "State": "Queensland",
+   "Income": 333
+ },
+ {
+   "Year": 1987,
+   "State": "South Australia",
+   "Income": 335
+ },
+ {
+   "Year": 1987,
+   "State": "Western Australia",
+   "Income": 343
+ },
+ {
+   "Year": 1987,
+   "State": "Tasmania",
+   "Income": 325
+ },
+ {
+   "Year": 1987,
+   "State": "Northern Territory",
+   "Income": 397
+ },
+ {
+   "Year": 1987,
+   "State": "Australian Capital Territory",
+   "Income": 406
+ },
+ {
+   "Year": 1987,
+   "State": "Australia",
+   "Income": 346
+ },
+ {
+   "Year": 1988,
+   "State": "New South Wales",
+   "Income": 374
+ },
+ {
+   "Year": 1988,
+   "State": "Victoria",
+   "Income": 365
+ },
+ {
+   "Year": 1988,
+   "State": "Queensland",
+   "Income": 347
+ },
+ {
+   "Year": 1988,
+   "State": "South Australia",
+   "Income": 349
+ },
+ {
+   "Year": 1988,
+   "State": "Western Australia",
+   "Income": 360
+ },
+ {
+   "Year": 1988,
+   "State": "Tasmania",
+   "Income": 350
+ },
+ {
+   "Year": 1988,
+   "State": "Northern Territory",
+   "Income": 414
+ },
+ {
+   "Year": 1988,
+   "State": "Australian Capital Territory",
+   "Income": 423
+ },
+ {
+   "Year": 1988,
+   "State": "Australia",
+   "Income": 362
+ },
+ {
+   "Year": 1989,
+   "State": "New South Wales",
+   "Income": 380
+ },
+ {
+   "Year": 1989,
+   "State": "Victoria",
+   "Income": 380
+ },
+ {
+   "Year": 1989,
+   "State": "Queensland",
+   "Income": 380
+ },
+ {
+   "Year": 1989,
+   "State": "South Australia",
+   "Income": 380
+ },
+ {
+   "Year": 1989,
+   "State": "Western Australia",
+   "Income": 380
+ },
+ {
+   "Year": 1989,
+   "State": "Tasmania",
+   "Income": 380
+ },
+ {
+   "Year": 1989,
+   "State": "Northern Territory",
+   "Income": 460
+ },
+ {
+   "Year": 1989,
+   "State": "Australian Capital Territory",
+   "Income": 460
+ },
+ {
+   "Year": 1989,
+   "State": "Australia",
+   "Income": 380
+ },
+ {
+   "Year": 1990,
+   "State": "New South Wales",
+   "Income": 420
+ },
+ {
+   "Year": 1990,
+   "State": "Victoria",
+   "Income": 420
+ },
+ {
+   "Year": 1990,
+   "State": "Queensland",
+   "Income": 380
+ },
+ {
+   "Year": 1990,
+   "State": "South Australia",
+   "Income": 380
+ },
+ {
+   "Year": 1990,
+   "State": "Western Australia",
+   "Income": 420
+ },
+ {
+   "Year": 1990,
+   "State": "Tasmania",
+   "Income": 380
+ },
+ {
+   "Year": 1990,
+   "State": "Northern Territory",
+   "Income": 460
+ },
+ {
+   "Year": 1990,
+   "State": "Australian Capital Territory",
+   "Income": 500
+ },
+ {
+   "Year": 1990,
+   "State": "Australia",
+   "Income": 420
+ },
+ {
+   "Year": 1991,
+   "State": "New South Wales",
+   "Income": 420
+ },
+ {
+   "Year": 1991,
+   "State": "Victoria",
+   "Income": 420
+ },
+ {
+   "Year": 1991,
+   "State": "Queensland",
+   "Income": 380
+ },
+ {
+   "Year": 1991,
+   "State": "South Australia",
+   "Income": 380
+ },
+ {
+   "Year": 1991,
+   "State": "Western Australia",
+   "Income": 420
+ },
+ {
+   "Year": 1991,
+   "State": "Tasmania",
+   "Income": 380
+ },
+ {
+   "Year": 1991,
+   "State": "Northern Territory",
+   "Income": 460
+ },
+ {
+   "Year": 1991,
+   "State": "Australian Capital Territory",
+   "Income": 500
+ },
+ {
+   "Year": 1991,
+   "State": "Australia",
+   "Income": 430
+ },
+ {
+   "Year": 1992,
+   "State": "New South Wales",
+   "Income": 460
+ },
+ {
+   "Year": 1992,
+   "State": "Victoria",
+   "Income": 460
+ },
+ {
+   "Year": 1992,
+   "State": "Queensland",
+   "Income": 420
+ },
+ {
+   "Year": 1992,
+   "State": "South Australia",
+   "Income": 420
+ },
+ {
+   "Year": 1992,
+   "State": "Western Australia",
+   "Income": 460
+ },
+ {
+   "Year": 1992,
+   "State": "Tasmania",
+   "Income": 420
+ },
+ {
+   "Year": 1992,
+   "State": "Northern Territory",
+   "Income": 500
+ },
+ {
+   "Year": 1992,
+   "State": "Australian Capital Territory",
+   "Income": 500
+ },
+ {
+   "Year": 1992,
+   "State": "Australia",
+   "Income": 460
+ },
+ {
+   "Year": 1993,
+   "State": "New South Wales",
+   "Income": 500
+ },
+ {
+   "Year": 1993,
+   "State": "Victoria",
+   "Income": 460
+ },
+ {
+   "Year": 1993,
+   "State": "Queensland",
+   "Income": 420
+ },
+ {
+   "Year": 1993,
+   "State": "South Australia",
+   "Income": 460
+ },
+ {
+   "Year": 1993,
+   "State": "Western Australia",
+   "Income": 460
+ },
+ {
+   "Year": 1993,
+   "State": "Tasmania",
+   "Income": 420
+ },
+ {
+   "Year": 1993,
+   "State": "Northern Territory",
+   "Income": 540
+ },
+ {
+   "Year": 1993,
+   "State": "Australian Capital Territory",
+   "Income": 540
+ },
+ {
+   "Year": 1993,
+   "State": "Australia",
+   "Income": 460
+ },
+ {
+   "Year": 1994,
+   "State": "New South Wales",
+   "Income": 500
+ },
+ {
+   "Year": 1994,
+   "State": "Victoria",
+   "Income": 500
+ },
+ {
+   "Year": 1994,
+   "State": "Queensland",
+   "Income": 460
+ },
+ {
+   "Year": 1994,
+   "State": "South Australia",
+   "Income": 460
+ },
+ {
+   "Year": 1994,
+   "State": "Western Australia",
+   "Income": 500
+ },
+ {
+   "Year": 1994,
+   "State": "Tasmania",
+   "Income": 420
+ },
+ {
+   "Year": 1994,
+   "State": "Northern Territory",
+   "Income": 540
+ },
+ {
+   "Year": 1994,
+   "State": "Australian Capital Territory",
+   "Income": 540
+ },
+ {
+   "Year": 1994,
+   "State": "Australia",
+   "Income": 460
+ },
+ {
+   "Year": 1995,
+   "State": "New South Wales",
+   "Income": 500
+ },
+ {
+   "Year": 1995,
+   "State": "Victoria",
+   "Income": 500
+ },
+ {
+   "Year": 1995,
+   "State": "Queensland",
+   "Income": 460
+ },
+ {
+   "Year": 1995,
+   "State": "South Australia",
+   "Income": 460
+ },
+ {
+   "Year": 1995,
+   "State": "Western Australia",
+   "Income": 460
+ },
+ {
+   "Year": 1995,
+   "State": "Tasmania",
+   "Income": 460
+ },
+ {
+   "Year": 1995,
+   "State": "Northern Territory",
+   "Income": 500
+ },
+ {
+   "Year": 1995,
+   "State": "Australian Capital Territory",
+   "Income": 580
+ },
+ {
+   "Year": 1995,
+   "State": "Australia",
+   "Income": 500
+ },
+ {
+   "Year": 1996,
+   "State": "New South Wales",
+   "Income": 500
+ },
+ {
+   "Year": 1996,
+   "State": "Victoria",
+   "Income": 500
+ },
+ {
+   "Year": 1996,
+   "State": "Queensland",
+   "Income": 460
+ },
+ {
+   "Year": 1996,
+   "State": "South Australia",
+   "Income": 460
+ },
+ {
+   "Year": 1996,
+   "State": "Western Australia",
+   "Income": 460
+ },
+ {
+   "Year": 1996,
+   "State": "Tasmania",
+   "Income": 460
+ },
+ {
+   "Year": 1996,
+   "State": "Northern Territory",
+   "Income": 500
+ },
+ {
+   "Year": 1996,
+   "State": "Australian Capital Territory",
+   "Income": 580
+ },
+ {
+   "Year": 1996,
+   "State": "Australia",
+   "Income": 500
+ },
+ {
+   "Year": 1997,
+   "State": "New South Wales",
+   "Income": 529.6
+ },
+ {
+   "Year": 1997,
+   "State": "Victoria",
+   "Income": 512
+ },
+ {
+   "Year": 1997,
+   "State": "Queensland",
+   "Income": 500
+ },
+ {
+   "Year": 1997,
+   "State": "South Australia",
+   "Income": 500
+ },
+ {
+   "Year": 1997,
+   "State": "Western Australia",
+   "Income": 504
+ },
+ {
+   "Year": 1997,
+   "State": "Tasmania",
+   "Income": 490
+ },
+ {
+   "Year": 1997,
+   "State": "Northern Territory",
+   "Income": 600
+ },
+ {
+   "Year": 1997,
+   "State": "Australian Capital Territory",
+   "Income": 600
+ },
+ {
+   "Year": 1997,
+   "State": "Australia",
+   "Income": 512.01
+ },
+ {
+   "Year": 1998,
+   "State": "New South Wales",
+   "Income": 550
+ },
+ {
+   "Year": 1998,
+   "State": "Victoria",
+   "Income": 520
+ },
+ {
+   "Year": 1998,
+   "State": "Queensland",
+   "Income": 502.66
+ },
+ {
+   "Year": 1998,
+   "State": "South Australia",
+   "Income": 500
+ },
+ {
+   "Year": 1998,
+   "State": "Western Australia",
+   "Income": 525
+ },
+ {
+   "Year": 1998,
+   "State": "Tasmania",
+   "Income": 490
+ },
+ {
+   "Year": 1998,
+   "State": "Northern Territory",
+   "Income": 600
+ },
+ {
+   "Year": 1998,
+   "State": "Australian Capital Territory",
+   "Income": 600.47
+ },
+ {
+   "Year": 1998,
+   "State": "Australia",
+   "Income": 530
+ },
+ {
+   "Year": 1999,
+   "State": "New South Wales",
+   "Income": 600
+ },
+ {
+   "Year": 1999,
+   "State": "Victoria",
+   "Income": 550
+ },
+ {
+   "Year": 1999,
+   "State": "Queensland",
+   "Income": 513
+ },
+ {
+   "Year": 1999,
+   "State": "South Australia",
+   "Income": 525
+ },
+ {
+   "Year": 1999,
+   "State": "Western Australia",
+   "Income": 550
+ },
+ {
+   "Year": 1999,
+   "State": "Tasmania",
+   "Income": 504.75
+ },
+ {
+   "Year": 1999,
+   "State": "Northern Territory",
+   "Income": 602.44
+ },
+ {
+   "Year": 1999,
+   "State": "Australian Capital Territory",
+   "Income": 650
+ },
+ {
+   "Year": 1999,
+   "State": "Australia",
+   "Income": 550
+ },
+ {
+   "Year": 2000,
+   "State": "New South Wales",
+   "Income": 600
+ },
+ {
+   "Year": 2000,
+   "State": "Victoria",
+   "Income": 579.08
+ },
+ {
+   "Year": 2000,
+   "State": "Queensland",
+   "Income": 550
+ },
+ {
+   "Year": 2000,
+   "State": "South Australia",
+   "Income": 558
+ },
+ {
+   "Year": 2000,
+   "State": "Western Australia",
+   "Income": 560
+ },
+ {
+   "Year": 2000,
+   "State": "Tasmania",
+   "Income": 527.43
+ },
+ {
+   "Year": 2000,
+   "State": "Northern Territory",
+   "Income": 672.59
+ },
+ {
+   "Year": 2000,
+   "State": "Australian Capital Territory",
+   "Income": 710.35
+ },
+ {
+   "Year": 2000,
+   "State": "Australia",
+   "Income": 581.79
+ },
+ {
+   "Year": 2001,
+   "State": "New South Wales",
+   "Income": 618
+ },
+ {
+   "Year": 2001,
+   "State": "Victoria",
+   "Income": 600
+ },
+ {
+   "Year": 2001,
+   "State": "Queensland",
+   "Income": 565
+ },
+ {
+   "Year": 2001,
+   "State": "South Australia",
+   "Income": 570
+ },
+ {
+   "Year": 2001,
+   "State": "Western Australia",
+   "Income": 575
+ },
+ {
+   "Year": 2001,
+   "State": "Tasmania",
+   "Income": 550
+ },
+ {
+   "Year": 2001,
+   "State": "Northern Territory",
+   "Income": 667
+ },
+ {
+   "Year": 2001,
+   "State": "Australian Capital Territory",
+   "Income": 700
+ },
+ {
+   "Year": 2001,
+   "State": "Australia",
+   "Income": 600
+ },
+ {
+   "Year": 2002,
+   "State": "New South Wales",
+   "Income": 650
+ },
+ {
+   "Year": 2002,
+   "State": "Victoria",
+   "Income": 604.02
+ },
+ {
+   "Year": 2002,
+   "State": "Queensland",
+   "Income": 600
+ },
+ {
+   "Year": 2002,
+   "State": "South Australia",
+   "Income": 600
+ },
+ {
+   "Year": 2002,
+   "State": "Western Australia",
+   "Income": 615
+ },
+ {
+   "Year": 2002,
+   "State": "Tasmania",
+   "Income": 550
+ },
+ {
+   "Year": 2002,
+   "State": "Northern Territory",
+   "Income": 700
+ },
+ {
+   "Year": 2002,
+   "State": "Australian Capital Territory",
+   "Income": 750
+ },
+ {
+   "Year": 2002,
+   "State": "Australia",
+   "Income": 615
+ },
+ {
+   "Year": 2003,
+   "State": "New South Wales",
+   "Income": 670
+ },
+ {
+   "Year": 2003,
+   "State": "Victoria",
+   "Income": 623.87
+ },
+ {
+   "Year": 2003,
+   "State": "Queensland",
+   "Income": 600
+ },
+ {
+   "Year": 2003,
+   "State": "South Australia",
+   "Income": 609.51
+ },
+ {
+   "Year": 2003,
+   "State": "Western Australia",
+   "Income": 620
+ },
+ {
+   "Year": 2003,
+   "State": "Tasmania",
+   "Income": 600
+ },
+ {
+   "Year": 2003,
+   "State": "Northern Territory",
+   "Income": 691.45
+ },
+ {
+   "Year": 2003,
+   "State": "Australian Capital Territory",
+   "Income": 779.31
+ },
+ {
+   "Year": 2003,
+   "State": "Australia",
+   "Income": 635
+ },
+ {
+   "Year": 2004,
+   "State": "New South Wales",
+   "Income": 691.62
+ },
+ {
+   "Year": 2004,
+   "State": "Victoria",
+   "Income": 650
+ },
+ {
+   "Year": 2004,
+   "State": "Queensland",
+   "Income": 645
+ },
+ {
+   "Year": 2004,
+   "State": "South Australia",
+   "Income": 637.61
+ },
+ {
+   "Year": 2004,
+   "State": "Western Australia",
+   "Income": 650
+ },
+ {
+   "Year": 2004,
+   "State": "Tasmania",
+   "Income": 600
+ },
+ {
+   "Year": 2004,
+   "State": "Northern Territory",
+   "Income": 770.07
+ },
+ {
+   "Year": 2004,
+   "State": "Australian Capital Territory",
+   "Income": 800
+ },
+ {
+   "Year": 2004,
+   "State": "Australia",
+   "Income": 651
+ },
+ {
+   "Year": 2005,
+   "State": "New South Wales",
+   "Income": 700
+ },
+ {
+   "Year": 2005,
+   "State": "Victoria",
+   "Income": 700
+ },
+ {
+   "Year": 2005,
+   "State": "Queensland",
+   "Income": 671
+ },
+ {
+   "Year": 2005,
+   "State": "South Australia",
+   "Income": 670.15
+ },
+ {
+   "Year": 2005,
+   "State": "Western Australia",
+   "Income": 700
+ },
+ {
+   "Year": 2005,
+   "State": "Tasmania",
+   "Income": 606.4
+ },
+ {
+   "Year": 2005,
+   "State": "Northern Territory",
+   "Income": 750
+ },
+ {
+   "Year": 2005,
+   "State": "Australian Capital Territory",
+   "Income": 824.8
+ },
+ {
+   "Year": 2005,
+   "State": "Australia",
+   "Income": 700
+ },
+ {
+   "Year": 2006,
+   "State": "New South Wales",
+   "Income": 750
+ },
+ {
+   "Year": 2006,
+   "State": "Victoria",
+   "Income": 720
+ },
+ {
+   "Year": 2006,
+   "State": "Queensland",
+   "Income": 700
+ },
+ {
+   "Year": 2006,
+   "State": "South Australia",
+   "Income": 700
+ },
+ {
+   "Year": 2006,
+   "State": "Western Australia",
+   "Income": 720
+ },
+ {
+   "Year": 2006,
+   "State": "Tasmania",
+   "Income": 650
+ },
+ {
+   "Year": 2006,
+   "State": "Northern Territory",
+   "Income": 800
+ },
+ {
+   "Year": 2006,
+   "State": "Australian Capital Territory",
+   "Income": 920
+ },
+ {
+   "Year": 2006,
+   "State": "Australia",
+   "Income": 730
+ },
+ {
+   "Year": 2007,
+   "State": "New South Wales",
+   "Income": 780
+ },
+ {
+   "Year": 2007,
+   "State": "Victoria",
+   "Income": 757
+ },
+ {
+   "Year": 2007,
+   "State": "Queensland",
+   "Income": 750
+ },
+ {
+   "Year": 2007,
+   "State": "South Australia",
+   "Income": 720
+ },
+ {
+   "Year": 2007,
+   "State": "Western Australia",
+   "Income": 800
+ },
+ {
+   "Year": 2007,
+   "State": "Tasmania",
+   "Income": 680
+ },
+ {
+   "Year": 2007,
+   "State": "Northern Territory",
+   "Income": 850
+ },
+ {
+   "Year": 2007,
+   "State": "Australian Capital Territory",
+   "Income": 1000
+ },
+ {
+   "Year": 2007,
+   "State": "Australia",
+   "Income": 769
+ },
+ {
+   "Year": 2008,
+   "State": "New South Wales",
+   "Income": 825
+ },
+ {
+   "Year": 2008,
+   "State": "Victoria",
+   "Income": 796.55
+ },
+ {
+   "Year": 2008,
+   "State": "Queensland",
+   "Income": 800
+ },
+ {
+   "Year": 2008,
+   "State": "South Australia",
+   "Income": 750
+ },
+ {
+   "Year": 2008,
+   "State": "Western Australia",
+   "Income": 890
+ },
+ {
+   "Year": 2008,
+   "State": "Tasmania",
+   "Income": 720
+ },
+ {
+   "Year": 2008,
+   "State": "Northern Territory",
+   "Income": 900
+ },
+ {
+   "Year": 2008,
+   "State": "Australian Capital Territory",
+   "Income": 1000
+ },
+ {
+   "Year": 2008,
+   "State": "Australia",
+   "Income": 800
+ },
+ {
+   "Year": 2009,
+   "State": "New South Wales",
+   "Income": 845.74
+ },
+ {
+   "Year": 2009,
+   "State": "Victoria",
+   "Income": 800
+ },
+ {
+   "Year": 2009,
+   "State": "Queensland",
+   "Income": 842.44
+ },
+ {
+   "Year": 2009,
+   "State": "South Australia",
+   "Income": 769
+ },
+ {
+   "Year": 2009,
+   "State": "Western Australia",
+   "Income": 874
+ },
+ {
+   "Year": 2009,
+   "State": "Tasmania",
+   "Income": 765
+ },
+ {
+   "Year": 2009,
+   "State": "Northern Territory",
+   "Income": 1000
+ },
+ {
+   "Year": 2009,
+   "State": "Australian Capital Territory",
+   "Income": 1057
+ },
+ {
+   "Year": 2009,
+   "State": "Australia",
+   "Income": 831
+ },
+ {
+   "Year": 2010,
+   "State": "New South Wales",
+   "Income": 900
+ },
+ {
+   "Year": 2010,
+   "State": "Victoria",
+   "Income": 849.31
+ },
+ {
+   "Year": 2010,
+   "State": "Queensland",
+   "Income": 850
+ },
+ {
+   "Year": 2010,
+   "State": "South Australia",
+   "Income": 804
+ },
+ {
+   "Year": 2010,
+   "State": "Western Australia",
+   "Income": 959.51
+ },
+ {
+   "Year": 2010,
+   "State": "Tasmania",
+   "Income": 769
+ },
+ {
+   "Year": 2010,
+   "State": "Northern Territory",
+   "Income": 1000
+ },
+ {
+   "Year": 2010,
+   "State": "Australian Capital Territory",
+   "Income": 1056.64
+ },
+ {
+   "Year": 2010,
+   "State": "Australia",
+   "Income": 868
+ },
+ {
+   "Year": 2011,
+   "State": "New South Wales",
+   "Income": 900
+ },
+ {
+   "Year": 2011,
+   "State": "Victoria",
+   "Income": 871.08
+ },
+ {
+   "Year": 2011,
+   "State": "Queensland",
+   "Income": 900
+ },
+ {
+   "Year": 2011,
+   "State": "South Australia",
+   "Income": 846
+ },
+ {
+   "Year": 2011,
+   "State": "Western Australia",
+   "Income": 1000
+ },
+ {
+   "Year": 2011,
+   "State": "Tasmania",
+   "Income": 800
+ },
+ {
+   "Year": 2011,
+   "State": "Northern Territory",
+   "Income": 1000
+ },
+ {
+   "Year": 2011,
+   "State": "Australian Capital Territory",
+   "Income": 1100
+ },
+ {
+   "Year": 2011,
+   "State": "Australia",
+   "Income": 900
+ },
+ {
+   "Year": 2012,
+   "State": "New South Wales",
+   "Income": 947
+ },
+ {
+   "Year": 2012,
+   "State": "Victoria",
+   "Income": 900
+ },
+ {
+   "Year": 2012,
+   "State": "Queensland",
+   "Income": 947
+ },
+ {
+   "Year": 2012,
+   "State": "South Australia",
+   "Income": 900
+ },
+ {
+   "Year": 2012,
+   "State": "Western Australia",
+   "Income": 1021.15
+ },
+ {
+   "Year": 2012,
+   "State": "Tasmania",
+   "Income": 825
+ },
+ {
+   "Year": 2012,
+   "State": "Northern Territory",
+   "Income": 1050
+ },
+ {
+   "Year": 2012,
+   "State": "Australian Capital Territory",
+   "Income": 1171.02
+ },
+ {
+   "Year": 2012,
+   "State": "Australia",
+   "Income": 947
+ },
+ {
+   "Year": 2013,
+   "State": "New South Wales",
+   "Income": 950
+ },
+ {
+   "Year": 2013,
+   "State": "Victoria",
+   "Income": 900
+ },
+ {
+   "Year": 2013,
+   "State": "Queensland",
+   "Income": 950
+ },
+ {
+   "Year": 2013,
+   "State": "South Australia",
+   "Income": 900
+ },
+ {
+   "Year": 2013,
+   "State": "Western Australia",
+   "Income": 1045.34
+ },
+ {
+   "Year": 2013,
+   "State": "Tasmania",
+   "Income": 842.39
+ },
+ {
+   "Year": 2013,
+   "State": "Northern Territory",
+   "Income": 1100
+ },
+ {
+   "Year": 2013,
+   "State": "Australian Capital Territory",
+   "Income": 1210.62
+ },
+ {
+   "Year": 2013,
+   "State": "Australia",
+   "Income": 950
+ },
+ {
+   "Year": 2014,
+   "State": "New South Wales",
+   "Income": 1000
+ },
+ {
+   "Year": 2014,
+   "State": "Victoria",
+   "Income": 948.92
+ },
+ {
+   "Year": 2014,
+   "State": "Queensland",
+   "Income": 982.7
+ },
+ {
+   "Year": 2014,
+   "State": "South Australia",
+   "Income": 924.58
+ },
+ {
+   "Year": 2014,
+   "State": "Western Australia",
+   "Income": 1127.6
+ },
+ {
+   "Year": 2014,
+   "State": "Tasmania",
+   "Income": 863.52
+ },
+ {
+   "Year": 2014,
+   "State": "Northern Territory",
+   "Income": 1261.2
+ },
+ {
+   "Year": 2014,
+   "State": "Australian Capital Territory",
+   "Income": 1200
+ },
+ {
+   "Year": 2014,
+   "State": "Australia",
+   "Income": 1000
+ },
+ {
+   "Year": 2015,
+   "State": "New South Wales",
+   "Income": 1000
+ },
+ {
+   "Year": 2015,
+   "State": "Victoria",
+   "Income": 950
+ },
+ {
+   "Year": 2015,
+   "State": "Queensland",
+   "Income": 1000
+ },
+ {
+   "Year": 2015,
+   "State": "South Australia",
+   "Income": 958
+ },
+ {
+   "Year": 2015,
+   "State": "Western Australia",
+   "Income": 1089
+ },
+ {
+   "Year": 2015,
+   "State": "Tasmania",
+   "Income": 879
+ },
+ {
+   "Year": 2015,
+   "State": "Northern Territory",
+   "Income": 1200
+ },
+ {
+   "Year": 2015,
+   "State": "Australian Capital Territory",
+   "Income": 1250
+ },
+ {
+   "Year": 2015,
+   "State": "Australia",
+   "Income": 1000
+ },
+ {
+   "Year": 2016,
+   "State": "New South Wales",
+   "Income": 1000
+ },
+ {
+   "Year": 2016,
+   "State": "Victoria",
+   "Income": 1000
+ },
+ {
+   "Year": 2016,
+   "State": "Queensland",
+   "Income": 1000
+ },
+ {
+   "Year": 2016,
+   "State": "South Australia",
+   "Income": 951
+ },
+ {
+   "Year": 2016,
+   "State": "Western Australia",
+   "Income": 1100
+ },
+ {
+   "Year": 2016,
+   "State": "Tasmania",
+   "Income": 900
+ },
+ {
+   "Year": 2016,
+   "State": "Northern Territory",
+   "Income": 1250
+ },
+ {
+   "Year": 2016,
+   "State": "Australian Capital Territory",
+   "Income": 1250
+ },
+ {
+   "Year": 2016,
+   "State": "Australia",
+   "Income": 1000
+ },
+ {
+   "Year": 2017,
+   "State": "New South Wales",
+   "Income": 1050
+ },
+ {
+   "Year": 2017,
+   "State": "Victoria",
+   "Income": 1000
+ },
+ {
+   "Year": 2017,
+   "State": "Queensland",
+   "Income": 1000
+ },
+ {
+   "Year": 2017,
+   "State": "South Australia",
+   "Income": 975
+ },
+ {
+   "Year": 2017,
+   "State": "Western Australia",
+   "Income": 1103.96
+ },
+ {
+   "Year": 2017,
+   "State": "Tasmania",
+   "Income": 950
+ },
+ {
+   "Year": 2017,
+   "State": "Northern Territory",
+   "Income": 1202.25
+ },
+ {
+   "Year": 2017,
+   "State": "Australian Capital Territory",
+   "Income": 1299
+ },
+ {
+   "Year": 2017,
+   "State": "Australia",
+   "Income": 1019
+ },
+ {
+   "Year": 2018,
+   "State": "New South Wales",
+   "Income": 1071
+ },
+ {
+   "Year": 2018,
+   "State": "Victoria",
+   "Income": 1069
+ },
+ {
+   "Year": 2018,
+   "State": "Queensland",
+   "Income": 1050
+ },
+ {
+   "Year": 2018,
+   "State": "South Australia",
+   "Income": 1000
+ },
+ {
+   "Year": 2018,
+   "State": "Western Australia",
+   "Income": 1189
+ },
+ {
+   "Year": 2018,
+   "State": "Tasmania",
+   "Income": 974.94
+ },
+ {
+   "Year": 2018,
+   "State": "Northern Territory",
+   "Income": 1250
+ },
+ {
+   "Year": 2018,
+   "State": "Australian Capital Territory",
+   "Income": 1300
+ },
+ {
+   "Year": 2018,
+   "State": "Australia",
+   "Income": 1075
+ },
+ {
+   "Year": 2019,
+   "State": "New South Wales",
+   "Income": 1150
+ },
+ {
+   "Year": 2019,
+   "State": "Victoria",
+   "Income": 1072.12
+ },
+ {
+   "Year": 2019,
+   "State": "Queensland",
+   "Income": 1057
+ },
+ {
+   "Year": 2019,
+   "State": "South Australia",
+   "Income": 1010
+ },
+ {
+   "Year": 2019,
+   "State": "Western Australia",
+   "Income": 1200
+ },
+ {
+   "Year": 2019,
+   "State": "Tasmania",
+   "Income": 1000
+ },
+ {
+   "Year": 2019,
+   "State": "Northern Territory",
+   "Income": 1204
+ },
+ {
+   "Year": 2019,
+   "State": "Australian Capital Territory",
+   "Income": 1299.27
+ },
+ {
+   "Year": 2019,
+   "State": "Australia",
+   "Income": 1100
+ },
+ {
+   "Year": 2020,
+   "State": "New South Wales",
+   "Income": 1150
+ },
+ {
+   "Year": 2020,
+   "State": "Victoria",
+   "Income": 1150
+ },
+ {
+   "Year": 2020,
+   "State": "Queensland",
+   "Income": 1096
+ },
+ {
+   "Year": 2020,
+   "State": "South Australia",
+   "Income": 1052.73
+ },
+ {
+   "Year": 2020,
+   "State": "Western Australia",
+   "Income": 1250
+ },
+ {
+   "Year": 2020,
+   "State": "Tasmania",
+   "Income": 1000
+ },
+ {
+   "Year": 2020,
+   "State": "Northern Territory",
+   "Income": 1200
+ },
+ {
+   "Year": 2020,
+   "State": "Australian Capital Territory",
+   "Income": 1428.48
+ },
+ {
+   "Year": 2020,
+   "State": "Australia",
+   "Income": 1150
+ },
+ {
+   "Year": 2021,
+   "State": "New South Wales",
+   "Income": 1249
+ },
+ {
+   "Year": 2021,
+   "State": "Victoria",
+   "Income": 1182.1
+ },
+ {
+   "Year": 2021,
+   "State": "Queensland",
+   "Income": 1141.6
+ },
+ {
+   "Year": 2021,
+   "State": "South Australia",
+   "Income": 1100
+ },
+ {
+   "Year": 2021,
+   "State": "Western Australia",
+   "Income": 1250
+ },
+ {
+   "Year": 2021,
+   "State": "Tasmania",
+   "Income": 1004.23
+ },
+ {
+   "Year": 2021,
+   "State": "Northern Territory",
+   "Income": 1343.96
+ },
+ {
+   "Year": 2021,
+   "State": "Australian Capital Territory",
+   "Income": 1468.63
+ },
+ {
+   "Year": 2021,
+   "State": "Australia",
+   "Income": 1200
+ },
+ {
+   "Year": 2022,
+   "State": "New South Wales",
+   "Income": 1246
+ },
+ {
+   "Year": 2022,
+   "State": "Victoria",
+   "Income": 1250
+ },
+ {
+   "Year": 2022,
+   "State": "Queensland",
+   "Income": 1208.95
+ },
+ {
+   "Year": 2022,
+   "State": "South Australia",
+   "Income": 1125
+ },
+ {
+   "Year": 2022,
+   "State": "Western Australia",
+   "Income": 1324.31
+ },
+ {
+   "Year": 2022,
+   "State": "Tasmania",
+   "Income": 1081.97
+ },
+ {
+   "Year": 2022,
+   "State": "Northern Territory",
+   "Income": 1400
+ },
+ {
+   "Year": 2022,
+   "State": "Australian Capital Territory",
+   "Income": 1500
+ },
+ {
+   "Year": 2022,
+   "State": "Australia",
+   "Income": 1248
+ },
+ {
+   "Year": 2023,
+   "State": "New South Wales",
+   "Income": 1339.41
+ },
+ {
+   "Year": 2023,
+   "State": "Victoria",
+   "Income": 1280
+ },
+ {
+   "Year": 2023,
+   "State": "Queensland",
+   "Income": 1300
+ },
+ {
+   "Year": 2023,
+   "State": "South Australia",
+   "Income": 1200
+ },
+ {
+   "Year": 2023,
+   "State": "Western Australia",
+   "Income": 1339.32
+ },
+ {
+   "Year": 2023,
+   "State": "Tasmania",
+   "Income": 1209.58
+ },
+ {
+   "Year": 2023,
+   "State": "Northern Territory",
+   "Income": 1426.91
+ },
+ {
+   "Year": 2023,
+   "State": "Australian Capital Territory",
+   "Income": 1550
+ },
+ {
+   "Year": 2023,
+   "State": "Australia",
+   "Income": 1300
+ }
+]

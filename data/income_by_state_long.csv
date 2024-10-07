@@ -1,0 +1,370 @@
+"Year","State","Income"
+1983,"New South Wales",273
+1983,"Victoria",266
+1983,"Queensland",264
+1983,"South Australia",259
+1983,"Western Australia",265
+1983,"Tasmania",256
+1983,"Northern Territory",319
+1983,"Australian Capital Territory",298
+1983,"Australia",268
+1984,"New South Wales",296
+1984,"Victoria",285
+1984,"Queensland",280
+1984,"South Australia",275
+1984,"Western Australia",286
+1984,"Tasmania",278
+1984,"Northern Territory",344
+1984,"Australian Capital Territory",321
+1984,"Australia",288
+1985,"New South Wales",313
+1985,"Victoria",309
+1985,"Queensland",298
+1985,"South Australia",298
+1985,"Western Australia",303
+1985,"Tasmania",299
+1985,"Northern Territory",350
+1985,"Australian Capital Territory",344
+1985,"Australia",308
+1986,"New South Wales",313
+1986,"Victoria",309
+1986,"Queensland",298
+1986,"South Australia",298
+1986,"Western Australia",303
+1986,"Tasmania",299
+1986,"Northern Territory",350
+1986,"Australian Capital Territory",344
+1986,"Australia",326
+1987,"New South Wales",358
+1987,"Victoria",340
+1987,"Queensland",333
+1987,"South Australia",335
+1987,"Western Australia",343
+1987,"Tasmania",325
+1987,"Northern Territory",397
+1987,"Australian Capital Territory",406
+1987,"Australia",346
+1988,"New South Wales",374
+1988,"Victoria",365
+1988,"Queensland",347
+1988,"South Australia",349
+1988,"Western Australia",360
+1988,"Tasmania",350
+1988,"Northern Territory",414
+1988,"Australian Capital Territory",423
+1988,"Australia",362
+1989,"New South Wales",380
+1989,"Victoria",380
+1989,"Queensland",380
+1989,"South Australia",380
+1989,"Western Australia",380
+1989,"Tasmania",380
+1989,"Northern Territory",460
+1989,"Australian Capital Territory",460
+1989,"Australia",380
+1990,"New South Wales",420
+1990,"Victoria",420
+1990,"Queensland",380
+1990,"South Australia",380
+1990,"Western Australia",420
+1990,"Tasmania",380
+1990,"Northern Territory",460
+1990,"Australian Capital Territory",500
+1990,"Australia",420
+1991,"New South Wales",420
+1991,"Victoria",420
+1991,"Queensland",380
+1991,"South Australia",380
+1991,"Western Australia",420
+1991,"Tasmania",380
+1991,"Northern Territory",460
+1991,"Australian Capital Territory",500
+1991,"Australia",430
+1992,"New South Wales",460
+1992,"Victoria",460
+1992,"Queensland",420
+1992,"South Australia",420
+1992,"Western Australia",460
+1992,"Tasmania",420
+1992,"Northern Territory",500
+1992,"Australian Capital Territory",500
+1992,"Australia",460
+1993,"New South Wales",500
+1993,"Victoria",460
+1993,"Queensland",420
+1993,"South Australia",460
+1993,"Western Australia",460
+1993,"Tasmania",420
+1993,"Northern Territory",540
+1993,"Australian Capital Territory",540
+1993,"Australia",460
+1994,"New South Wales",500
+1994,"Victoria",500
+1994,"Queensland",460
+1994,"South Australia",460
+1994,"Western Australia",500
+1994,"Tasmania",420
+1994,"Northern Territory",540
+1994,"Australian Capital Territory",540
+1994,"Australia",460
+1995,"New South Wales",500
+1995,"Victoria",500
+1995,"Queensland",460
+1995,"South Australia",460
+1995,"Western Australia",460
+1995,"Tasmania",460
+1995,"Northern Territory",500
+1995,"Australian Capital Territory",580
+1995,"Australia",500
+1996,"New South Wales",500
+1996,"Victoria",500
+1996,"Queensland",460
+1996,"South Australia",460
+1996,"Western Australia",460
+1996,"Tasmania",460
+1996,"Northern Territory",500
+1996,"Australian Capital Territory",580
+1996,"Australia",500
+1997,"New South Wales",529.6
+1997,"Victoria",512
+1997,"Queensland",500
+1997,"South Australia",500
+1997,"Western Australia",504
+1997,"Tasmania",490
+1997,"Northern Territory",600
+1997,"Australian Capital Territory",600
+1997,"Australia",512.01
+1998,"New South Wales",550
+1998,"Victoria",520
+1998,"Queensland",502.66
+1998,"South Australia",500
+1998,"Western Australia",525
+1998,"Tasmania",490
+1998,"Northern Territory",600
+1998,"Australian Capital Territory",600.47
+1998,"Australia",530
+1999,"New South Wales",600
+1999,"Victoria",550
+1999,"Queensland",513
+1999,"South Australia",525
+1999,"Western Australia",550
+1999,"Tasmania",504.75
+1999,"Northern Territory",602.44
+1999,"Australian Capital Territory",650
+1999,"Australia",550
+2000,"New South Wales",600
+2000,"Victoria",579.08
+2000,"Queensland",550
+2000,"South Australia",558
+2000,"Western Australia",560
+2000,"Tasmania",527.43
+2000,"Northern Territory",672.59
+2000,"Australian Capital Territory",710.35
+2000,"Australia",581.79
+2001,"New South Wales",618
+2001,"Victoria",600
+2001,"Queensland",565
+2001,"South Australia",570
+2001,"Western Australia",575
+2001,"Tasmania",550
+2001,"Northern Territory",667
+2001,"Australian Capital Territory",700
+2001,"Australia",600
+2002,"New South Wales",650
+2002,"Victoria",604.02
+2002,"Queensland",600
+2002,"South Australia",600
+2002,"Western Australia",615
+2002,"Tasmania",550
+2002,"Northern Territory",700
+2002,"Australian Capital Territory",750
+2002,"Australia",615
+2003,"New South Wales",670
+2003,"Victoria",623.87
+2003,"Queensland",600
+2003,"South Australia",609.51
+2003,"Western Australia",620
+2003,"Tasmania",600
+2003,"Northern Territory",691.45
+2003,"Australian Capital Territory",779.31
+2003,"Australia",635
+2004,"New South Wales",691.62
+2004,"Victoria",650
+2004,"Queensland",645
+2004,"South Australia",637.61
+2004,"Western Australia",650
+2004,"Tasmania",600
+2004,"Northern Territory",770.07
+2004,"Australian Capital Territory",800
+2004,"Australia",651
+2005,"New South Wales",700
+2005,"Victoria",700
+2005,"Queensland",671
+2005,"South Australia",670.15
+2005,"Western Australia",700
+2005,"Tasmania",606.4
+2005,"Northern Territory",750
+2005,"Australian Capital Territory",824.8
+2005,"Australia",700
+2006,"New South Wales",750
+2006,"Victoria",720
+2006,"Queensland",700
+2006,"South Australia",700
+2006,"Western Australia",720
+2006,"Tasmania",650
+2006,"Northern Territory",800
+2006,"Australian Capital Territory",920
+2006,"Australia",730
+2007,"New South Wales",780
+2007,"Victoria",757
+2007,"Queensland",750
+2007,"South Australia",720
+2007,"Western Australia",800
+2007,"Tasmania",680
+2007,"Northern Territory",850
+2007,"Australian Capital Territory",1000
+2007,"Australia",769
+2008,"New South Wales",825
+2008,"Victoria",796.55
+2008,"Queensland",800
+2008,"South Australia",750
+2008,"Western Australia",890
+2008,"Tasmania",720
+2008,"Northern Territory",900
+2008,"Australian Capital Territory",1000
+2008,"Australia",800
+2009,"New South Wales",845.74
+2009,"Victoria",800
+2009,"Queensland",842.44
+2009,"South Australia",769
+2009,"Western Australia",874
+2009,"Tasmania",765
+2009,"Northern Territory",1000
+2009,"Australian Capital Territory",1057
+2009,"Australia",831
+2010,"New South Wales",900
+2010,"Victoria",849.31
+2010,"Queensland",850
+2010,"South Australia",804
+2010,"Western Australia",959.51
+2010,"Tasmania",769
+2010,"Northern Territory",1000
+2010,"Australian Capital Territory",1056.64
+2010,"Australia",868
+2011,"New South Wales",900
+2011,"Victoria",871.08
+2011,"Queensland",900
+2011,"South Australia",846
+2011,"Western Australia",1000
+2011,"Tasmania",800
+2011,"Northern Territory",1000
+2011,"Australian Capital Territory",1100
+2011,"Australia",900
+2012,"New South Wales",947
+2012,"Victoria",900
+2012,"Queensland",947
+2012,"South Australia",900
+2012,"Western Australia",1021.15
+2012,"Tasmania",825
+2012,"Northern Territory",1050
+2012,"Australian Capital Territory",1171.02
+2012,"Australia",947
+2013,"New South Wales",950
+2013,"Victoria",900
+2013,"Queensland",950
+2013,"South Australia",900
+2013,"Western Australia",1045.34
+2013,"Tasmania",842.39
+2013,"Northern Territory",1100
+2013,"Australian Capital Territory",1210.62
+2013,"Australia",950
+2014,"New South Wales",1000
+2014,"Victoria",948.92
+2014,"Queensland",982.7
+2014,"South Australia",924.58
+2014,"Western Australia",1127.6
+2014,"Tasmania",863.52
+2014,"Northern Territory",1261.2
+2014,"Australian Capital Territory",1200
+2014,"Australia",1000
+2015,"New South Wales",1000
+2015,"Victoria",950
+2015,"Queensland",1000
+2015,"South Australia",958
+2015,"Western Australia",1089
+2015,"Tasmania",879
+2015,"Northern Territory",1200
+2015,"Australian Capital Territory",1250
+2015,"Australia",1000
+2016,"New South Wales",1000
+2016,"Victoria",1000
+2016,"Queensland",1000
+2016,"South Australia",951
+2016,"Western Australia",1100
+2016,"Tasmania",900
+2016,"Northern Territory",1250
+2016,"Australian Capital Territory",1250
+2016,"Australia",1000
+2017,"New South Wales",1050
+2017,"Victoria",1000
+2017,"Queensland",1000
+2017,"South Australia",975
+2017,"Western Australia",1103.96
+2017,"Tasmania",950
+2017,"Northern Territory",1202.25
+2017,"Australian Capital Territory",1299
+2017,"Australia",1019
+2018,"New South Wales",1071
+2018,"Victoria",1069
+2018,"Queensland",1050
+2018,"South Australia",1000
+2018,"Western Australia",1189
+2018,"Tasmania",974.94
+2018,"Northern Territory",1250
+2018,"Australian Capital Territory",1300
+2018,"Australia",1075
+2019,"New South Wales",1150
+2019,"Victoria",1072.12
+2019,"Queensland",1057
+2019,"South Australia",1010
+2019,"Western Australia",1200
+2019,"Tasmania",1000
+2019,"Northern Territory",1204
+2019,"Australian Capital Territory",1299.27
+2019,"Australia",1100
+2020,"New South Wales",1150
+2020,"Victoria",1150
+2020,"Queensland",1096
+2020,"South Australia",1052.73
+2020,"Western Australia",1250
+2020,"Tasmania",1000
+2020,"Northern Territory",1200
+2020,"Australian Capital Territory",1428.48
+2020,"Australia",1150
+2021,"New South Wales",1249
+2021,"Victoria",1182.1
+2021,"Queensland",1141.6
+2021,"South Australia",1100
+2021,"Western Australia",1250
+2021,"Tasmania",1004.23
+2021,"Northern Territory",1343.96
+2021,"Australian Capital Territory",1468.63
+2021,"Australia",1200
+2022,"New South Wales",1246
+2022,"Victoria",1250
+2022,"Queensland",1208.95
+2022,"South Australia",1125
+2022,"Western Australia",1324.31
+2022,"Tasmania",1081.97
+2022,"Northern Territory",1400
+2022,"Australian Capital Territory",1500
+2022,"Australia",1248
+2023,"New South Wales",1339.41
+2023,"Victoria",1280
+2023,"Queensland",1300
+2023,"South Australia",1200
+2023,"Western Australia",1339.32
+2023,"Tasmania",1209.58
+2023,"Northern Territory",1426.91
+2023,"Australian Capital Territory",1550
+2023,"Australia",1300
