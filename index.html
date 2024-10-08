@@ -3,20 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vega-Lite Visualizations</title>
-    <!-- Include Vega and Vega-Lite libraries -->
+    <title> Vega-Lite Visualizations </title>
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .container:nth-child(odd) {
+            flex-direction: row; /* Visualization on the left, text on the right */
+        }
+        .container:nth-child(even) {
+            flex-direction: row-reverse; /* Text on the left, visualization on the right */
+        }
+        .vis {
+            width: 400px;
+            height: 300px;
+        }
+        .text {
+            width: 50%;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
     <h1>Australians and Wealth</h1>
 
-    <!-- Visualization 1 -->
-    <div id="vis1" style="width: 400px; height: 300px;"></div>
+    <!-- Visualization 1 with text -->
+    <div class="container">
+        <div id="vis1" class="vis"></div>
+        <div class="text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vehicula mi in ultricies fringilla. Sed vehicula orci nec sollicitudin dignissim.</p>
+        </div>
+    </div>
 
-    <!-- Visualization 2 -->
-    <div id="vis2" style="width: 400px; height: 300px;"></div>
+    <!-- Visualization 2 with text -->
+    <div class="container">
+        <div id="vis2" class="vis"></div>
+        <div class="text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet tortor sed urna facilisis, non dictum metus varius.</p>
+        </div>
+    </div>
 
     <script type="text/javascript">
         // URL for the first .vega.json file
