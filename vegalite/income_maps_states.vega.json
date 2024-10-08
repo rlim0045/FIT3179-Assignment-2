@@ -1,29 +1,26 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 800,
-  "height": 450,
-  "title": "Weekly Income per State in Australia",
-
+  "title": "Median Australian Income per State",
+  "width": 300,
+  "height": 300,
   "params": [
     {
       "name": "Year_selection",
+      "value": 2019,
       "bind": {
         "input": "range",
         "min": 1983,
         "max": 2023,
         "step": 1,
-        "name": "Select Year: "
+        "name": "Select the year:"
       }
     }
   ],
-
   "projection": {
     "type": "mercator"
   },
-
   "layer": [
-
-    { 
+    {
       "data": {
         "url": "https://raw.githubusercontent.com/rlim0045/FIT3179-Assignment-2/refs/heads/main/topojson/naturalearthdata_10m_australian_states.json",
         "format": {
@@ -33,16 +30,19 @@
       },
       "mark": {
         "type": "geoshape",
+        "fill": "#ddd",
         "stroke": "white",
         "strokeWidth": 2
       }
     },
-
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/rlim0045/FIT3179-Assignment-2/refs/heads/main/data/income_by_state_no_quotation.csv"
+        "url": "https://raw.githubusercontent.com/rlim0045/FIT3179-Assignment-2/refs/heads/main/data/income_by_state_long.json"
       },
       "transform": [
+        {
+          "filter": "datum.Year == Year_selection"
+        },
         {
           "lookup": "State",
           "from": {
@@ -53,38 +53,43 @@
                 "feature": "ne_10m_admin_1_states_provinces"
               }
             },
-            "key": "properties.NAME"
-          }
-        },
-        {"filter": "datum.Year == Year_selection"}
+            "key": "properties.name"
+          },
+          "as": "geo"
+        }
       ],
-
       "mark": {
         "type": "geoshape",
-        "stroke": "white",
+        "stroke": "#fff",
         "strokeWidth": 0.5
       },
       "encoding": {
+        "shape": {
+          "field": "geo",
+          "type": "geojson"
+        },
         "color": {
           "field": "Income",
           "type": "quantitative",
           "title": "Income",
           "scale": {
-            "scheme": "plasma",
-            "type": "linear"
+            "scheme": "blues"
+          },
+          "legend": {
+            "format": ".2s"
           }
         },
-        
         "tooltip": [
           {
-            "field": "properties.name",
+            "field": "State",
             "type": "nominal",
             "title": "State"
           },
           {
             "field": "Income",
             "type": "quantitative",
-            "title": "Income"
+            "title": "Income",
+            "format": ","
           },
           {
             "field": "Year",
@@ -94,6 +99,5 @@
         ]
       }
     }
-  ],
-  "config": {}
+  ]
 }
