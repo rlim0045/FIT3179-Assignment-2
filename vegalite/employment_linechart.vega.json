@@ -1,0 +1,148 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Employment by Industry in Australia",
+    "data": {"url": "https://raw.githubusercontent.com/rlim0045/FIT3179-Assignment-2/refs/heads/main/data/employment_by_industry_per_year.json"},
+    "params": [
+    {
+        "name": "which_industry",
+        "bind": 
+        {
+            "input": "select",
+            "options": [
+                null,
+                "Agriculture, forestry and fishing",
+                "Mining",
+                "Manufacturing",
+                "Electricity, gas, water and waste services",
+                "Construction",
+                "Wholesale trade",
+                "Retail trade",
+                "Accommodation and food services",
+                "Transport, postal and warehousing",
+                "Information media and telecommunications",
+                "Auxiliary finance and insurance services",
+                "Rental, hiring and real estate services",
+                "Professional, scientific and technical services",
+                "Administrative and support services",
+                "Public administration and safety (private)",
+                "Education and training (private)",
+                "Health care and social assistance (private)",
+                "Arts and recreation services",
+                "Other services"
+            ],
+            "labels": [
+                "All Industries",
+                "Agriculture, forestry and fishing",
+                "Mining",
+                "Manufacturing",
+                "Electricity, gas, water and waste services",
+                "Construction",
+                "Wholesale trade",
+                "Retail trade",
+                "Accommodation and food services",
+                "Transport, postal and warehousing",
+                "Information media and telecommunications",
+                "Auxiliary finance and insurance services",
+                "Rental, hiring and real estate services",
+                "Professional, scientific and technical services",
+                "Administrative and support services",
+                "Public administration and safety (private)",
+                "Education and training (private)",
+                "Health care and social assistance (private)",
+                "Arts and recreation services",
+                "Other services"
+            ],
+            "name": "Industry Selected: "
+        }
+    }
+  ],
+      "transform": 
+      [
+      {
+        "fold": [
+          "Agriculture, forestry and fishing",
+          "Mining",
+          "Manufacturing",
+          "Electricity, gas, water and waste services",
+          "Construction",
+          "Wholesale trade",
+          "Retail trade",
+          "Accommodation and food services",
+          "Transport, postal and warehousing",
+          "Information media and telecommunications",
+          "Auxiliary finance and insurance services",
+          "Rental, hiring and real estate services",
+          "Professional, scientific and technical services",
+          "Administrative and support services",
+          "Public administration and safety (private)",
+          "Education and training (private)",
+          "Health care and social assistance (private)",
+          "Arts and recreation services",
+          "Other services"
+        ],
+        "as": ["Industry", "Employment"]
+      },
+    {
+      "filter": "which_industry == null || datum.Industry == which_industry"
+    },
+  
+    {
+      "calculate": "datum.Employment * 1000",
+      "as": "Employment_in_Thousands"
+    },
+    {
+      "window": [
+        {
+          "op": "lag",
+          "field": "Employment_in_Thousands",
+          "as": "Previous_Employment"
+        }
+      ],
+      "groupby": ["Industry"]
+    },
+    {
+      "calculate": "((datum.Employment_in_Thousands - datum.Previous_Employment) / datum.Previous_Employment) * 100",
+      "as": "Growth_Percentage"
+    }
+    ],
+    "mark": {
+      "type": "line",
+      "point": true},
+    "tooltip": true,
+    "encoding": {
+      "x": {
+        "field": "Year",
+        "axis": {"format": "0000"},
+        "title": "Year",
+        "grid": true,
+        "gridColor": "#ccc"
+      },
+
+      "y": {
+        "field": "Employment", 
+        "type": "quantitative",
+        "title": "Employment (in thousands)"
+      },
+      "color": {
+        "field": "Industry",
+        "type": "nominal",
+        "condition": {
+          "test": "which_industry == null",
+          "field": "Industry"
+        }
+      },
+      "tooltip": [
+      {"field": "Industry", "type": "nominal"},
+      {"field": "Employment_in_Thousands", "type": "quantitative", "title": "Employees"},
+      {"field": "Year", "format": "0000"},
+      {"field" : "Growth_Percentage", "type" : "quantitative", "title": "Growth %", "format": ".2f"}
+      ]
+    },
+    "config": {
+      "legend": {
+          "title": "Industry",
+          "orient": "right"
+        }
+    }
+}
+
