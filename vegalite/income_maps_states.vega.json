@@ -90,7 +90,7 @@
             "field": "Income",
             "type": "quantitative",
             "title": "Income",
-            "format": ","
+            "format": "$,.2f"
           },
           {
             "field": "Year",
