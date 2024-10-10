@@ -87,7 +87,7 @@
             "title": "State"
           },
           {
-            "field": "Income",
+            "field": "Income per Week",
             "type": "quantitative",
             "title": "Income",
             "format": "$,.2f"
