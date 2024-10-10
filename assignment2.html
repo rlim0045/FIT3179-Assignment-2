@@ -3,110 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 2 FIT3179 </title>
+    <title>Assignment 2 FIT3179</title>
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-        }
-        .header {
-            position: relative;
-            height: 50vh;
-            background: #4CAF50;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            color: white;
-        }
-        .inner-header {
-            height: 100%;
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .logo {
-            height: 100px;
-            margin-bottom: 20px;
-        }
-        h1 {
-            font-size: 3rem;
-            font-weight: bold;
-            margin: 0;
-        }
-        .waves {
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            height: 150px;
-        }
-        .content {
-            padding: 20px;
-            background-color: white;
-        }
-        .container {
-            margin: 20px;
-            padding: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        }
-        .chart {
-            margin-top: 30px;
-        }
-    </style>
+    <link href='https://fonts.googleapis.com/css?family=Lexend Deca' rel='stylesheet'>
+    <link rel="stylesheet" href="assignment2.css">
+
 </head>
-<body style="background-color: #6488EA;">
-
-    <!-- Header Section with Waves and Logo -->
-        <header class="header">
-        <nav class="navbar navbar-expand-lg fixed-top py-3">
-            <div class="container"><a href="#" class="navbar-brand text-uppercase font-weight-bold">Transparent Nav</a>
-                <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
-                
-                <div id="navbarSupportedContent" class="collapse navbar-collapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active"><a href="#" class="nav-link text-uppercase font-weight-bold">Home <span class="sr-only">(current)</span></a></li>
-                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">About</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Gallery</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Portfolio</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Contact</a></li>
-                        </ul>
-                 </div>
-            </div>
-         </nav>
-         </header>
-
-        <!-- Waves SVG -->
-        <div>
-            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-            viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-                <defs>
-                    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-                </defs>
-                <g class="parallax">
-                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
-                    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
-                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
-                    <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
-                </g>
-            </svg>
-        </div>
+<body>
+     
+    <div class="box1">
+        <h2 class = "header">Income and Employment in Australia</h2>
+        <h4 class = "header">FIT3179 Data Visualization</h4>
     </div>
-
-    // Visualization part
+    
     <div class="content flex">
         <div class="container">
-            <div id="vis1" class="chart"></div>
+            <div id = "vis1" class = "image1"></div>
 
-            <div id="vis2" class="chart"></div>
+            <p class = "text1">  This chart shows the number of employment per industry in Australia. Retail trade was the biggest employer in Australia up until 2019, where healthcare overtook it and became the biggest employer in Australia. This shows the aging population of australia, that is in need of healthcare and the improving healthcare outcomes here. The COVID-19 pandemic also played a role in the increase of healthcare employments. </p>
+
+            <div id="vis2" class = "image2"></div>
+
+            <div id="vis3" class="image3"></div>
         </div>
     </div>
 
@@ -120,6 +40,11 @@
         const vis2URL = 'https://raw.githubusercontent.com/rlim0045/FIT3179-Assignment-2/refs/heads/main/vegalite/income_maps_states.vega.json';
         // Embed the second visualization
         vegaEmbed('#vis2', vis2URL).catch(console.error);
+
+        // URL to the third visualization
+        const vis3URL = 'https://raw.githubusercontent.com/rlim0045/FIT3179-Assignment-2/refs/heads/main/vegalite/income_population_pyramid.vega.json';
+        //Embed the third visualization
+        vegaEmbed('#vis3', vis3URL).catch(console.error);
     </script>
 </body>
 </html>
