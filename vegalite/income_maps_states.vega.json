@@ -1,4 +1,5 @@
 {
+  "width": 640
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Median Weekly Income per State in Australia",
   "width": 300,
