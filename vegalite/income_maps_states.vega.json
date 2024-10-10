@@ -12,7 +12,7 @@
         "min": 1983,
         "max": 2023,
         "step": 1,
-        "name": "Select the year:"
+        "name": "Income Year: :"
       }
     }
   ],
