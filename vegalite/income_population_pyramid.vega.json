@@ -1,0 +1,110 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "An income pyramid by age and gender for the year 2023.",
+  "data": { 
+    "url": "https://raw.githubusercontent.com/rlim0045/FIT3179-Assignment-2/refs/heads/main/data/income_by_age_sex_year.json"
+  },
+  "title": {
+    "text": "Income Pyramid by Age and Gender",
+    "fontSize": 18,
+    "anchor": "middle",
+    "fontWeight": "bold"
+  },
+  "params": [
+    {
+      "name": "selected_year",
+      "value": 2023,
+      "bind": {
+        "input": "range",
+        "min": 2020,
+        "max": 2023,
+        "step": 1,
+        "name": "Year:"
+      }
+    }
+  ],
+  "transform": [
+    {"filter": "datum.YEAR == selected_year"}
+  ],
+  "spacing": 0,
+  "hconcat": [{
+    "transform": [{
+      "filter": {"field": "SEX", "equal": "Female"}
+    }],
+    "title": "Female",
+    "mark": "bar",
+    "encoding": {
+      "y": {
+        "field": "AGE", "axis": null, "sort": "descending"
+      },
+      "x": {
+        "aggregate": "sum", "field": "TOTAL",
+        "title": "Total Income",
+        "axis": {"format": "s"},
+        "sort": "descending",
+        "scale": {"domain": "unaggregated"}
+      },
+      "color": {
+        "field": "SEX",
+        "scale": {"range": ["#ca8861", "#675193"]},
+        "legend": null
+      },
+      "tooltip": [
+        {"field": "AGE", "title": "Age"},
+        {"field": "YEAR", "title": "Year"},
+        {"field": "TOTAL", "title": "Income per Week", "format": "$,.2f"}
+      ]
+    }
+  }, {
+    "width": 20,
+    "view": {"stroke": null},
+    "mark": {
+      "type": "text",
+      "align": "center"
+    },
+    "encoding": {
+      "y": {
+        "field": "AGE", 
+        "type": "ordinal", 
+        "axis": null, 
+        "sort": "descending"
+      },
+      "text": {
+        "field": "AGE", 
+        "type": "nominal"
+      }
+    },
+    "title": "Age"
+  }, {
+    "transform": [{
+      "filter": {"field": "SEX", "equal": "Male"}
+    }],
+    "title": "Male",
+    "mark": "bar",
+    "encoding": {
+      "y": {
+        "field": "AGE", "title": null,
+        "axis": null, "sort": "descending"
+      },
+      "x": {
+        "aggregate": "sum", "field": "TOTAL",
+        "title": "Total Income",
+        "axis": {"format": "s"},
+        "scale": {"domain": "unaggregated"}
+      },
+      "color": {
+        "field": "SEX",
+        "legend": null
+      },
+      "tooltip": [
+        {"field": "AGE", "title": "Age"},
+        {"field": "YEAR", "title": "Year"},
+        {"field": "TOTAL", "title": "Income per Week", "format": "$,.2f"}
+      ]
+    }
+  }],
+  "config": {
+    "view": {"stroke": null},
+    "axis": {"grid": false}
+  }
+}
