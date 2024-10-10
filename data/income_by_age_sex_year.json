@@ -1,0 +1,514 @@
+[
+ {
+   "AGE": "15 - 19",
+   "FULL-TIME": 772,
+   "PART-TIME": 200,
+   "TOTAL": 324.136,
+   "SEX": "Male",
+   "YEAR": 2023
+ },
+ {
+   "AGE": "20 - 24",
+   "FULL-TIME": 1177.575,
+   "PART-TIME": 577.694,
+   "TOTAL": 961.276,
+   "SEX": "Male",
+   "YEAR": 2023
+ },
+ {
+   "AGE": "25 - 34",
+   "FULL-TIME": 1600,
+   "PART-TIME": 750,
+   "TOTAL": 1500,
+   "SEX": "Male",
+   "YEAR": 2023
+ },
+ {
+   "AGE": "35 - 44",
+   "FULL-TIME": 1999.135,
+   "PART-TIME": 855.011,
+   "TOTAL": 1900,
+   "SEX": "Male",
+   "YEAR": 2023
+ },
+ {
+   "AGE": "45 - 54",
+   "FULL-TIME": 1950,
+   "PART-TIME": 830.165,
+   "TOTAL": 1850,
+   "SEX": "Male",
+   "YEAR": 2023
+ },
+ {
+   "AGE": "55 - 59",
+   "FULL-TIME": 1859,
+   "PART-TIME": 971.811,
+   "TOTAL": 1750,
+   "SEX": "Male",
+   "YEAR": 2023
+ },
+ {
+   "AGE": "60 - 64",
+   "FULL-TIME": 1672.257,
+   "PART-TIME": 800,
+   "TOTAL": 1500,
+   "SEX": "Male",
+   "YEAR": 2023
+ },
+ {
+   "AGE": "65+",
+   "FULL-TIME": 1551.349,
+   "PART-TIME": 600,
+   "TOTAL": 1200,
+   "SEX": "Male",
+   "YEAR": 2023
+ },
+ {
+   "AGE": "15 - 19",
+   "FULL-TIME": 818.069,
+   "PART-TIME": 184.94,
+   "TOTAL": 234.057,
+   "SEX": "Female",
+   "YEAR": 2023
+ },
+ {
+   "AGE": "20 - 24",
+   "FULL-TIME": 1194.19,
+   "PART-TIME": 600,
+   "TOTAL": 850,
+   "SEX": "Female",
+   "YEAR": 2023
+ },
+ {
+   "AGE": "25 - 34",
+   "FULL-TIME": 1500,
+   "PART-TIME": 750,
+   "TOTAL": 1249.939,
+   "SEX": "Female",
+   "YEAR": 2023
+ },
+ {
+   "AGE": "35 - 44",
+   "FULL-TIME": 1600,
+   "PART-TIME": 844.004,
+   "TOTAL": 1283.62,
+   "SEX": "Female",
+   "YEAR": 2023
+ },
+ {
+   "AGE": "45 - 54",
+   "FULL-TIME": 1650,
+   "PART-TIME": 850,
+   "TOTAL": 1342,
+   "SEX": "Female",
+   "YEAR": 2023
+ },
+ {
+   "AGE": "55 - 59",
+   "FULL-TIME": 1602.187,
+   "PART-TIME": 750,
+   "TOTAL": 1250,
+   "SEX": "Female",
+   "YEAR": 2023
+ },
+ {
+   "AGE": "60 - 64",
+   "FULL-TIME": 1400,
+   "PART-TIME": 800,
+   "TOTAL": 1115.515,
+   "SEX": "Female",
+   "YEAR": 2023
+ },
+ {
+   "AGE": "65+",
+   "FULL-TIME": 1514.858,
+   "PART-TIME": 596.288,
+   "TOTAL": 876.903,
+   "SEX": "Female",
+   "YEAR": 2023
+ },
+ {
+   "AGE": "15 - 19",
+   "FULL-TIME": 750,
+   "PART-TIME": 200,
+   "TOTAL": 312,
+   "SEX": "Male",
+   "YEAR": 2022
+ },
+ {
+   "AGE": "20 - 24",
+   "FULL-TIME": 1100,
+   "PART-TIME": 500,
+   "TOTAL": 900,
+   "SEX": "Male",
+   "YEAR": 2022
+ },
+ {
+   "AGE": "25 - 34",
+   "FULL-TIME": 1499.241,
+   "PART-TIME": 700,
+   "TOTAL": 1400,
+   "SEX": "Male",
+   "YEAR": 2022
+ },
+ {
+   "AGE": "35 - 44",
+   "FULL-TIME": 1841,
+   "PART-TIME": 795.914,
+   "TOTAL": 1750,
+   "SEX": "Male",
+   "YEAR": 2022
+ },
+ {
+   "AGE": "45 - 54",
+   "FULL-TIME": 1911.072,
+   "PART-TIME": 772.226,
+   "TOTAL": 1800,
+   "SEX": "Male",
+   "YEAR": 2022
+ },
+ {
+   "AGE": "55 - 59",
+   "FULL-TIME": 1841,
+   "PART-TIME": 797.71,
+   "TOTAL": 1726,
+   "SEX": "Male",
+   "YEAR": 2022
+ },
+ {
+   "AGE": "60 - 64",
+   "FULL-TIME": 1598.453,
+   "PART-TIME": 850,
+   "TOTAL": 1479.788,
+   "SEX": "Male",
+   "YEAR": 2022
+ },
+ {
+   "AGE": "65+",
+   "FULL-TIME": 1547.969,
+   "PART-TIME": 623.725,
+   "TOTAL": 1183.103,
+   "SEX": "Male",
+   "YEAR": 2022
+ },
+ {
+   "AGE": "15 - 19",
+   "FULL-TIME": 791.645,
+   "PART-TIME": 201.307,
+   "TOTAL": 250,
+   "SEX": "Female",
+   "YEAR": 2022
+ },
+ {
+   "AGE": "20 - 24",
+   "FULL-TIME": 1099,
+   "PART-TIME": 525.187,
+   "TOTAL": 833.551,
+   "SEX": "Female",
+   "YEAR": 2022
+ },
+ {
+   "AGE": "25 - 34",
+   "FULL-TIME": 1400,
+   "PART-TIME": 724.021,
+   "TOTAL": 1200,
+   "SEX": "Female",
+   "YEAR": 2022
+ },
+ {
+   "AGE": "35 - 44",
+   "FULL-TIME": 1560.01,
+   "PART-TIME": 800,
+   "TOTAL": 1250,
+   "SEX": "Female",
+   "YEAR": 2022
+ },
+ {
+   "AGE": "45 - 54",
+   "FULL-TIME": 1575.1,
+   "PART-TIME": 750.072,
+   "TOTAL": 1248,
+   "SEX": "Female",
+   "YEAR": 2022
+ },
+ {
+   "AGE": "55 - 59",
+   "FULL-TIME": 1526.906,
+   "PART-TIME": 794.271,
+   "TOTAL": 1155.087,
+   "SEX": "Female",
+   "YEAR": 2022
+ },
+ {
+   "AGE": "60 - 64",
+   "FULL-TIME": 1393.008,
+   "PART-TIME": 750,
+   "TOTAL": 1000,
+   "SEX": "Female",
+   "YEAR": 2022
+ },
+ {
+   "AGE": "65+",
+   "FULL-TIME": 1544.532,
+   "PART-TIME": 500,
+   "TOTAL": 700,
+   "SEX": "Female",
+   "YEAR": 2022
+ },
+ {
+   "AGE": "15 - 19",
+   "FULL-TIME": 722.961,
+   "PART-TIME": 180,
+   "TOTAL": 320,
+   "SEX": "Male",
+   "YEAR": 2021
+ },
+ {
+   "AGE": "20 - 24",
+   "FULL-TIME": 1046.283,
+   "PART-TIME": 457.277,
+   "TOTAL": 840,
+   "SEX": "Male",
+   "YEAR": 2021
+ },
+ {
+   "AGE": "25 - 34",
+   "FULL-TIME": 1400,
+   "PART-TIME": 600,
+   "TOTAL": 1300,
+   "SEX": "Male",
+   "YEAR": 2021
+ },
+ {
+   "AGE": "35 - 44",
+   "FULL-TIME": 1841,
+   "PART-TIME": 790.696,
+   "TOTAL": 1750,
+   "SEX": "Male",
+   "YEAR": 2021
+ },
+ {
+   "AGE": "45 - 54",
+   "FULL-TIME": 1821,
+   "PART-TIME": 877.331,
+   "TOTAL": 1726,
+   "SEX": "Male",
+   "YEAR": 2021
+ },
+ {
+   "AGE": "55 - 59",
+   "FULL-TIME": 1800,
+   "PART-TIME": 605.234,
+   "TOTAL": 1677.615,
+   "SEX": "Male",
+   "YEAR": 2021
+ },
+ {
+   "AGE": "60 - 64",
+   "FULL-TIME": 1585.728,
+   "PART-TIME": 750,
+   "TOTAL": 1400,
+   "SEX": "Male",
+   "YEAR": 2021
+ },
+ {
+   "AGE": "65+",
+   "FULL-TIME": 1451.118,
+   "PART-TIME": 577.562,
+   "TOTAL": 1124.397,
+   "SEX": "Male",
+   "YEAR": 2021
+ },
+ {
+   "AGE": "15 - 19",
+   "FULL-TIME": 770.283,
+   "PART-TIME": 180,
+   "TOTAL": 209.747,
+   "SEX": "Female",
+   "YEAR": 2021
+ },
+ {
+   "AGE": "20 - 24",
+   "FULL-TIME": 1017.008,
+   "PART-TIME": 500,
+   "TOTAL": 769.864,
+   "SEX": "Female",
+   "YEAR": 2021
+ },
+ {
+   "AGE": "25 - 34",
+   "FULL-TIME": 1300,
+   "PART-TIME": 678.167,
+   "TOTAL": 1100,
+   "SEX": "Female",
+   "YEAR": 2021
+ },
+ {
+   "AGE": "35 - 44",
+   "FULL-TIME": 1538,
+   "PART-TIME": 750,
+   "TOTAL": 1193.789,
+   "SEX": "Female",
+   "YEAR": 2021
+ },
+ {
+   "AGE": "45 - 54",
+   "FULL-TIME": 1509.139,
+   "PART-TIME": 745.296,
+   "TOTAL": 1200,
+   "SEX": "Female",
+   "YEAR": 2021
+ },
+ {
+   "AGE": "55 - 59",
+   "FULL-TIME": 1400,
+   "PART-TIME": 728.807,
+   "TOTAL": 1116.294,
+   "SEX": "Female",
+   "YEAR": 2021
+ },
+ {
+   "AGE": "60 - 64",
+   "FULL-TIME": 1477.089,
+   "PART-TIME": 690,
+   "TOTAL": 976.972,
+   "SEX": "Female",
+   "YEAR": 2021
+ },
+ {
+   "AGE": "65+",
+   "FULL-TIME": 1400,
+   "PART-TIME": 550,
+   "TOTAL": 863.127,
+   "SEX": "Female",
+   "YEAR": 2021
+ },
+ {
+   "AGE": "15 - 19",
+   "FULL-TIME": 700,
+   "PART-TIME": 191.619,
+   "TOTAL": 300,
+   "SEX": "Male",
+   "YEAR": 2020
+ },
+ {
+   "AGE": "20 - 24",
+   "FULL-TIME": 977.664,
+   "PART-TIME": 500,
+   "TOTAL": 800,
+   "SEX": "Male",
+   "YEAR": 2020
+ },
+ {
+   "AGE": "25 - 34",
+   "FULL-TIME": 1367.798,
+   "PART-TIME": 678.203,
+   "TOTAL": 1265,
+   "SEX": "Male",
+   "YEAR": 2020
+ },
+ {
+   "AGE": "35 - 44",
+   "FULL-TIME": 1700,
+   "PART-TIME": 750.173,
+   "TOTAL": 1618,
+   "SEX": "Male",
+   "YEAR": 2020
+ },
+ {
+   "AGE": "45 - 54",
+   "FULL-TIME": 1737.998,
+   "PART-TIME": 750,
+   "TOTAL": 1634,
+   "SEX": "Male",
+   "YEAR": 2020
+ },
+ {
+   "AGE": "55 - 59",
+   "FULL-TIME": 1650,
+   "PART-TIME": 750,
+   "TOTAL": 1516.71,
+   "SEX": "Male",
+   "YEAR": 2020
+ },
+ {
+   "AGE": "60 - 64",
+   "FULL-TIME": 1569.704,
+   "PART-TIME": 750,
+   "TOTAL": 1404.545,
+   "SEX": "Male",
+   "YEAR": 2020
+ },
+ {
+   "AGE": "65+",
+   "FULL-TIME": 1491.489,
+   "PART-TIME": 678.059,
+   "TOTAL": 1000,
+   "SEX": "Male",
+   "YEAR": 2020
+ },
+ {
+   "AGE": "15 - 19",
+   "FULL-TIME": 749.29,
+   "PART-TIME": 199,
+   "TOTAL": 217.579,
+   "SEX": "Female",
+   "YEAR": 2020
+ },
+ {
+   "AGE": "20 - 24",
+   "FULL-TIME": 1000,
+   "PART-TIME": 600,
+   "TOTAL": 750,
+   "SEX": "Female",
+   "YEAR": 2020
+ },
+ {
+   "AGE": "25 - 34",
+   "FULL-TIME": 1325,
+   "PART-TIME": 750,
+   "TOTAL": 1082,
+   "SEX": "Female",
+   "YEAR": 2020
+ },
+ {
+   "AGE": "35 - 44",
+   "FULL-TIME": 1500,
+   "PART-TIME": 750,
+   "TOTAL": 1104.434,
+   "SEX": "Female",
+   "YEAR": 2020
+ },
+ {
+   "AGE": "45 - 54",
+   "FULL-TIME": 1468.1,
+   "PART-TIME": 750,
+   "TOTAL": 1127.556,
+   "SEX": "Female",
+   "YEAR": 2020
+ },
+ {
+   "AGE": "55 - 59",
+   "FULL-TIME": 1356.843,
+   "PART-TIME": 750,
+   "TOTAL": 1050,
+   "SEX": "Female",
+   "YEAR": 2020
+ },
+ {
+   "AGE": "60 - 64",
+   "FULL-TIME": 1347.561,
+   "PART-TIME": 750,
+   "TOTAL": 968.161,
+   "SEX": "Female",
+   "YEAR": 2020
+ },
+ {
+   "AGE": "65+",
+   "FULL-TIME": 1401.249,
+   "PART-TIME": 700,
+   "TOTAL": 808.235,
+   "SEX": "Female",
+   "YEAR": 2020
+ }
+]
