@@ -1,50 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 2 FIT3179</title>
-    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-    <link href='https://fonts.googleapis.com/css?family=Lexend Deca' rel='stylesheet'>
-    <link rel="stylesheet" href="assignment2.css">
 
-</head>
-<body>
-     
-    <div class="box1">
-        <h2 class = "header">Income and Employment in Australia</h2>
-        <h4 class = "header">FIT3179 Data Visualization</h4>
-    </div>
-    
-    <div class="content flex">
-        <div class="container">
-            <div id = "vis1" class = "image1"></div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment 2 FIT3179</title>
+        <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+        <link href='https://fonts.googleapis.com/css?family=Lexend Deca' rel='stylesheet'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="assignment2.css">
 
-            <p class = "text1">  This chart shows the number of employment per industry in Australia. Retail trade was the biggest employer in Australia up until 2019, where healthcare overtook it and became the biggest employer in Australia. This shows the aging population of australia, that is in need of healthcare and the improving healthcare outcomes here. The COVID-19 pandemic also played a role in the increase of healthcare employments. </p>
+    </head>
 
-            <div id="vis2" class = "image2"></div>
-
-            <div id="vis3" class="image3"></div>
+    <body>
+        <div class = "titlebox">
+            <h2 class = "header">Income and Employment in Australia</h2>
+            <h4 class = "header">FIT3179 Data Visualization</h4>
         </div>
-    </div>
+        
+        <div class = "flex-container-linechart">
 
-    <script>
-        // URL to the external JSON Vega-Lite visualization 1
-        const vis1URL = 'https://raw.githubusercontent.com/rlim0045/FIT3179-Assignment-2/refs/heads/main/vegalite/employment_linechart.vega.json';
-        // Embed the first visualization
-        vegaEmbed('#vis1', vis1URL).catch(console.error);
+            <div id = "vis1" class = "chartbox-linechart"></div>
 
-        // URL to the external JSON Vega-Lite visualization 2
-        const vis2URL = 'https://raw.githubusercontent.com/rlim0045/FIT3179-Assignment-2/refs/heads/main/vegalite/income_maps_states.vega.json';
-        // Embed the second visualization
-        vegaEmbed('#vis2', vis2URL).catch(console.error);
+            <div class = textbox-linechart>
 
-        // URL to the third visualization
-        const vis3URL = 'https://raw.githubusercontent.com/rlim0045/FIT3179-Assignment-2/refs/heads/main/vegalite/income_population_pyramid.vega.json';
-        //Embed the third visualization
-        vegaEmbed('#vis3', vis3URL).catch(console.error);
-    </script>
-</body>
+            <h4 class = "subtitle"> Industrial Employment in Australia</h4>
+
+            <p class = "text">This chart illustrates employment numbers across various industries in Australia. 
+            Up until 2019, retail trade was the largest employer in the country, 
+            but healthcare overtook it, becoming Australia's top industry for employment. 
+            This change reflects the growing needs of Australia's aging population, 
+            as well as improvements in healthcare services and outcomes. The rise in healthcare jobs was further 
+            boosted by the COVID-19 pandemic, which significantly increased the demand for healthcare workers. 
+            Moreover, technological advancements in the healthcare sector have contributed to this employment growth, 
+            positioning healthcare as a key pillar of the Australian workforce.
+
+            </div>
+
+        </div>
+
+        <div class = "flex-container-choropleth">
+
+            <div id = "vis2" class = "chartbox-choropleth"></div>
+
+            <div class = textbox-choropleth>
+
+                <h4 class = "subtitle"> Weekly Income per State in Australia</h4>
+
+                <p class = "text">  This choropleth map shows the median weekly income of employees in Australia. 
+                The Northern Territory had an overwhelmingly higher median in 1983, 
+                and it wasn't until 1993 that other states started to catch up with it. 
+                2023 data shows that the Northen Territory still has the highest median weekly
+                income in Australia, with New South Wales and Western Australia following closely 
+                behind. South Australia and Tasmania are the two states with the lowest
+                median weekly income in Australia. </p>
+
+            </div>
+            
+        </div>
+
+        <div class = "flex-container-population">
+
+            <div class = textbox-population>
+
+                <h4 class = "subtitle"> Weekly Income based on Sex and Age</h4>
+
+                <p class = "text"> This population chart illustrates that wages for Australians are 
+                lowest among those aged 15 to 19, gradually increasing until they reach their peak. 
+                For Australian females, the highest earnings occur in the age bracket of 45 to 54, while 
+                Australian males hit their peak one age group earlier, at 35 to 44. After reaching these 
+                peaks, earnings decline until retirement age, which is defined as 65 and older. </p>
+
+            </div>
+
+            <div id = "vis3" class = "chartbox-population"></div>
+
+        </div>
+
+            <script>
+                // URL to the external JSON Vega-Lite visualization 1
+                const vis1URL = 'https://raw.githubusercontent.com/rlim0045/FIT3179-Assignment-2/refs/heads/main/vegalite/employment_linechart.vega.json';
+                // Embed the first visualization
+                vegaEmbed('#vis1', vis1URL).catch(console.error);
+
+                // URL to the external JSON Vega-Lite visualization 2
+                const vis2URL = 'https://raw.githubusercontent.com/rlim0045/FIT3179-Assignment-2/refs/heads/main/vegalite/income_maps_states.vega.json';
+                // Embed the second visualization
+                vegaEmbed('#vis2', vis2URL).catch(console.error);
+
+                // URL to the third visualization
+                const vis3URL = 'https://raw.githubusercontent.com/rlim0045/FIT3179-Assignment-2/refs/heads/main/vegalite/income_population_pyramid.vega.json';
+                //Embed the third visualization
+                vegaEmbed('#vis3', vis3URL).catch(console.error);
+            </script>
+
+    </body>
+
 </html>
