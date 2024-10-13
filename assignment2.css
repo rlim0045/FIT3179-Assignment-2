@@ -10,7 +10,7 @@ html, body {
   }
 
 body {
-  font-family: 'Lexend Deca', sans-serif; 
+  font-family: 'Roboto', sans-serif; 
   color: #2E475D;  
   background-color: #3D3D3D;  
   }
@@ -82,9 +82,7 @@ body {
   width: 495px;
   }
 
-.titlebox {
-  border-left: 2px solid #000;  
-  border-right: 2px solid #000; 
+.textbox-titlebox { 
   border-top: none;             
   border-bottom: none;         
   padding: 20px;                
@@ -92,13 +90,21 @@ body {
   text-align: center;          
   background-color: #2E475D;     
   color: white;                 
-  border-radius: 8px;
   gap: 5px;
+  width: 110%;
   }
 
 .header {
   font-family: 'Lexend Deca', sans-serif; 
   color: white;
+  }
+
+.flex-container-titlebox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 30px;
   }
 
 .flex-container-linechart {
