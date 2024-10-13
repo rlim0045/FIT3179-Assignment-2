@@ -127,6 +127,13 @@ body {
   margin-bottom: 30px;
   }
 
+.flex-container-choropleth-and-population {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  }
+
 .flex-container-linechart {
   display: flex;
   flex-direction: column;
@@ -140,7 +147,6 @@ body {
   flex-direction: row;
   align-items: center;
   gap: 5px;
-  margin-left: 220px;
   margin-bottom: 30px;
   }
 
@@ -149,7 +155,6 @@ body {
   flex-direction: row;
   align-items: center;
   gap: 5px;
-  margin-left: 220px;
   margin-bottom: 30px;
   }
 
