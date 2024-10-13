@@ -81,13 +81,33 @@
 
         </div>
 
+        <div class = "flex-container-choropleth2">
+
+            <div id = "vis4" class = "chartbox-choropleth2"></div>
+
+            <div class = textbox-choropleth2>
+
+            <h4 class = "subtitle"> World GDP per Capita</h4>
+
+            <p class = "text"> This global choropleth map, filtered by year, highlights that Australia 
+                consistently ranks among the top countries in GDP per capita. High-income nations are 
+                generally located further from the equator, with notable exceptions like Singapore, which 
+                stands out as a regional outlier. Australia's strong GDP per capita is driven by key sectors 
+                such as mining, finance, healthcare, and education. These industries have contributed to 
+                its robust economic performance over the years, making it a leader in the Asia-Pacific region, 
+                with a stable economy that continues to attract global investments. </p>
+
+            </div>
+
+        </div>
+
             <script>
-                // URL to the external JSON Vega-Lite visualization 1
+                // URL to the first visualization
                 const vis1URL = 'https://raw.githubusercontent.com/rlim0045/FIT3179-Assignment-2/refs/heads/main/vegalite/employment_linechart.vega.json';
                 // Embed the first visualization
                 vegaEmbed('#vis1', vis1URL).catch(console.error);
 
-                // URL to the external JSON Vega-Lite visualization 2
+                // URL to the second visualization
                 const vis2URL = 'https://raw.githubusercontent.com/rlim0045/FIT3179-Assignment-2/refs/heads/main/vegalite/income_maps_states.vega.json';
                 // Embed the second visualization
                 vegaEmbed('#vis2', vis2URL).catch(console.error);
@@ -96,7 +116,16 @@
                 const vis3URL = 'https://raw.githubusercontent.com/rlim0045/FIT3179-Assignment-2/refs/heads/main/vegalite/income_population_pyramid.vega.json';
                 //Embed the third visualization
                 vegaEmbed('#vis3', vis3URL).catch(console.error);
+
+                // URL to the fourth visualization
+                const vis4URL = 'https://raw.githubusercontent.com/rlim0045/FIT3179-Assignment-2/refs/heads/main/vegalite/gdp_per_capita.vega.json';
+                //Embed the fourth visualization
+                vegaEmbed('#vis4', vis4URL).catch(console.error);
+
+                
             </script>
+
+        <div class = "footer"> Visualization brought to you by Rayhan Ephraim Limantara - 32575289 </div>
 
     </body>
 
