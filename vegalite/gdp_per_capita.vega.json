@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "GDP Per Capita Worldwide",
-  "width": 1000,
-  "height": 390,
+  "width": 700,
+  "height": 290,
   "params": [
     {
       "name": "Year_selection",
