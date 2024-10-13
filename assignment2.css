@@ -82,6 +82,26 @@ body {
   width: 495px;
   }
 
+.chartbox-choropleth2, .textbox-choropleth2 {
+  width: 1000px;
+  padding: 20px;
+  border-radius: 8px;
+  color: #333;
+  background-color: #fff;
+  box-sizing: border-box;
+  }
+
+.textbox-choropleth2 {
+  max-width: 1100px;
+  text-align: center;
+  }
+
+.chartbox-choropleth2 {
+  position: relative;
+  height: 400px;
+  max-width: 1100px;
+  }
+
 .textbox-titlebox { 
   border-top: none;             
   border-bottom: none;         
@@ -133,6 +153,14 @@ body {
   margin-bottom: 30px;
   }
 
+.flex-container-choropleth2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 30px;
+  }
+
 .subtitle {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -146,3 +174,12 @@ body {
   font-weight: 300;
   font-style: normal;
 }
+
+.footer {
+  height: auto !important;
+  color: white;
+  height: 100%;
+  margin: 0 auto -142px;
+  opacity: 0.4;
+}
+
