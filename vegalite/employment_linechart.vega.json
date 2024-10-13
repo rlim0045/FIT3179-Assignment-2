@@ -134,7 +134,7 @@
       },
       "tooltip": [
       {"field": "Industry", "type": "nominal"},
-      {"field": "Employment_in_Thousands", "type": "quantitative", "title": "Employees"},
+      {"field": "Employment_in_Thousands", "type": "quantitative", "title": "Employees", "format": ","},
       {"field": "Year", "format": "0000"},
       {"field" : "Growth_Percentage", "type" : "quantitative", "title": "Growth %", "format": ".2f"}
       ]
