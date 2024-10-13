@@ -1,0 +1,102 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "GDP Per Capita Worldwide",
+  "params": [
+    {
+      "name": "Year_selection",
+      "value": 2019,
+      "bind": {
+        "input": "range",
+        "min": 1960,
+        "max": 2023,
+        "step": 1,
+        "name": "Select the year:"
+      }
+    }
+  ],
+  "projection": {
+    "type": "mercator"
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/rlim0045/FIT3179-Assignment-2/refs/heads/main/topojson/naturalearthdata_110m_world.json",
+        "format": {
+          "type": "topojson",
+          "feature": "ne_110m_admin_0_countries"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#ddd",
+        "stroke": "white",
+        "strokeWidth": 2
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/rlim0045/FIT3179-Assignment-2/refs/heads/main/data/cleaned_country_gdp_by_year.json"
+      },
+      "transform": [
+        {
+          "filter": "datum.year == Year_selection"
+        },
+        {
+          "lookup": "country_code",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/rlim0045/FIT3179-Assignment-2/refs/heads/main/topojson/naturalearthdata_110m_world.json",
+              "format": {
+                "type": "topojson",
+                "feature": "ne_110m_admin_0_countries"
+              }
+            },
+            "key": "properties.ISO_A3"
+          },
+          "as": "geo"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "stroke": "#fff",
+        "strokeWidth": 0.5
+      },
+      "encoding": {
+        "shape": {
+          "field": "geo",
+          "type": "geojson"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.GDP != null",
+            "field": "GDP",
+            "type": "quantitative",
+            "title": "GDP per Capita",
+            "scale": {
+              "scheme": "reds"
+            }
+          },
+          "value": "lightgray"
+        },
+        "tooltip": [
+          {
+            "field": "country_name",
+            "type": "nominal",
+            "title": "Country Name"
+          },
+          {
+            "field": "GDP",
+            "type": "quantitative",
+            "title": "GDP per Capita",
+            "format": "$,.2f"
+          },
+          {
+            "field": "year",
+            "type": "quantitative",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ]
+}
