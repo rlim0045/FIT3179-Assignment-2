@@ -1,5 +1,5 @@
 {
-    "width": 640,
+    "width": 650,
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Employment by Industry in Australia",
     "data": {"url": "https://raw.githubusercontent.com/rlim0045/FIT3179-Assignment-2/refs/heads/main/data/employment_by_industry_per_year.json"},
